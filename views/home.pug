@@ -1,0 +1,10 @@
+-var other = {name : "ahmed reda hamza"}
+-var array = ["ahmed","reda","nada"]
+html(lang="en")
+    include head
+    body 
+        p Hello come back
+        h1.name#name(style="color:red;font-size:10px;") Hello #{name} Hello #{other.name}
+        each item in array 
+            li #{item}
+            
