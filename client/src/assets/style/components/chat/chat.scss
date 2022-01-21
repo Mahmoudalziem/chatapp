@@ -1,0 +1,36 @@
+.ant-card {
+    text-align: left;
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 14px;
+    .ant-card-head {
+        background: #40a9ff;
+        color: #fff;
+        .ant-card-head-wrapper {
+            .ant-card-head-title {
+                font-weight: 600;
+                font-size: 18px;
+            }
+        }
+    }
+    .ant-card-body {
+        min-height: 250px;
+        height: 250px;
+        overflow-y: scroll;
+        direction: ltr;
+        .message {
+            background: #40a9ff;
+            padding: 5px 20px;
+            border-radius: 30px;
+            line-height: 20px;
+            color: #fff;
+            width: 200px;
+            margin: 5px;
+            &.right {
+                text-align: right;
+                float: right;
+            }
+            clear:both;
+        }
+    }
+}
