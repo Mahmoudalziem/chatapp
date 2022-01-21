@@ -1,14 +1,14 @@
 import { io } from 'socket.io-client'
 import Peer from 'peerjs'
 
-const socket = io("ws://127.0.0.1:3001", {
+const socket = io("https://chatapp-lication.herokuapp.com", {
     ssl: true,
     debug: true
 });
 
 const peer = new Peer({
-    host: "localhost",
-    port: 3001,
+    host: "https://chatapp-lication.herokuapp.com",
+    // port: 3001,
     path: "/"
 });
 
